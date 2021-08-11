@@ -28,11 +28,9 @@ export class AppComponent {
     }
   }
   checkUserId(userId){
-    console.log('checkUserId val ----------------->',userId.value);
     if(userId.value == "") { this.userIdValidate = false; }
     if(userId.value){
       this.userService.checkUserId(userId.value).subscribe((result)=>{
-        console.log('result ----------------->',result);
         if(result){
           this.userIdValidate = false;
         }
