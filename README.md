@@ -1,3 +1,7 @@
+## Node Modules
+
+I have used bootstrap . Make sure to install all the node Nodules for the application to work correctly.
+
 # PwcTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
